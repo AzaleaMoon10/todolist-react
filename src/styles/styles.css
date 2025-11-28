@@ -1,0 +1,37 @@
+body {
+  background-color: #FFF2D7
+  ;
+}
+
+input {
+  border-radius:  5px;
+}
+
+li {
+    list-style: none;
+}
+
+.card {
+  width: 400px;
+  background-color: #FFFFED;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.delete {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 0;
+    color: black;
+}
+
+.todo:hover {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.todo:hover > .delete {
+  display:block;
+}
+.delete:hover {
+  color: red;
+}
+
